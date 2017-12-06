@@ -1,0 +1,39 @@
+#Jekyll boilerplate by dotpegaso
+
+# HEAD config
+lang: pt-br
+title: Jekyll boilerplate
+author: dotpegaso
+description: A front-end template for building fast blogs
+theme_color: 
+facebook_title: 
+facebook_description: 
+facebook_img: 
+facebook_img_secure: 
+google_site_verification: 
+keywords: 
+
+# SOCIAL config
+twitter_username: 
+github_username:  
+facebook_username: 
+user_email:
+
+# DISQUS config
+disqus:
+
+# ANALYTICS config
+google_analytics:
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-admin
+
+exclude:
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

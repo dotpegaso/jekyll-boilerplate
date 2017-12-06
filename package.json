@@ -1,0 +1,40 @@
+{
+  "name": "jekyll-boilerplate",
+  "version": "1.0.0",
+  "description": "A front-end template for building fast blogs",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dotpegaso/jekyll-boilerplate.git"
+  },
+  "keywords": [
+    "front",
+    "end",
+    "blog",
+    "jekyll",
+    "sass",
+    "gulp",
+    "browsersync"
+  ],
+  "author": "dotpegaso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dotpegaso/jekyll-boilerplate/issues"
+  },
+  "homepage": "https://github.com/dotpegaso/jekyll-boilerplate#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cli": "^1.4.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "gulp-wait": "0.0.2"
+  }
+}

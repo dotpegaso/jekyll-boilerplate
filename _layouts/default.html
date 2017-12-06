@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "pt-br" }}">
+
+  {% include head.html %}
+
+  <body>
+    
+     {% include post_list.html %}
+
+    {{ content }}
+    
+    <footer>
+      {% if site.google_analytics %}
+        {% include google-analytics.html %}
+      {% endif %}
+    </footer>
+    
+     {% include github.svg %}
+
+  </body>
+
+</html>
