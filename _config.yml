@@ -20,12 +20,14 @@ facebook_username:
 user_email:
 
 # DISQUS config
-disqus:
+disqus: 
+url: 
 
 # ANALYTICS config
 google_analytics:
 
 # Build settings
+permalink: /:year/:title/
 markdown: kramdown
 plugins:
   - jekyll-feed
